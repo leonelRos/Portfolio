@@ -1,5 +1,6 @@
 body {
     background-color: rgb(139, 247, 255);
+    content: initial;
 }
 header {
     display: flex;
