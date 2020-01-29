@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(139, 247, 255);
+    /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
     content: initial;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 header {
     display: flex;
