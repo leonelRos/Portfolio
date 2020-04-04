@@ -1,10 +1,28 @@
 body {
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    background-color: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     content: initial;
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    display: flex;
+    background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg) fixed;
+    /* opacity: 0.5; */
+    /* font: italic; */
+    /* display: flex;
     justify-content: center;
-    align-content: center;
+    align-content: center; */
+}
+.navigate {
+    display: inline-flex;
+}
+.experience, .bio, .projects{
+    padding: 30px;
+}
+a {
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 40px;
+    color: rgba(238, 176, 7, 0.384);
+    
+}
+a:hover, a:active {
+    font-size: 250%;
 }
 header {
     display: flex;
@@ -15,4 +33,7 @@ header {
 h2 {
     display: flex;
     justify-content: center;
+}
+img {
+    opacity: 0.5;
 }
