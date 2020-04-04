@@ -37,3 +37,14 @@ h2 {
 img {
     opacity: 0.5;
 }
+.logo {
+    height: 55px;
+    clear: both;
+    background-color: black;
+    opacity: 0.5;
+}
+#page-logos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
