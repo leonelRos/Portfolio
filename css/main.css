@@ -1,7 +1,7 @@
 body {
     background-color: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     content: initial;
-    background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg) fixed;
+    /* background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg) fixed; */
     
 }
 .navigate {
@@ -35,13 +35,14 @@ h2 {
     justify-content: center;
 }
 img {
-    opacity: 0.5;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
 }
 .logo {
     height: 55px;
     clear: both;
-    background-color: black;
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
 #page-logos {
     display: flex;
