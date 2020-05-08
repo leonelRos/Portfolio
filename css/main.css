@@ -5,12 +5,12 @@ body {
 }
 
 .navigate {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
 }
 
-.experience,
-.bio,
-.projects {
+.experience .bi .projects {
   padding: 30px;
 }
 
@@ -27,8 +27,8 @@ a {
 
 a:hover,
 a:active {
-  font-size: 250%;
-  color: red;
+  font-size: 150%;
+  color: purple;
 }
 
 header {
@@ -52,7 +52,7 @@ img {
 .logo {
   height: 55px;
   clear: both;
-  /* opacity: 0.5; */
+  opacity: 0.5;
 }
 
 #page-logos {
