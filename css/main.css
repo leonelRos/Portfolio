@@ -1,8 +1,8 @@
 body {
   background-color: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   content: initial;
-  background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg)
-    fixed;
+  background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg);
+  color: turquoise;
 }
 body-background {
   opacity: 0.5;
@@ -55,11 +55,20 @@ img {
 .logo {
   height: 55px;
   width: 65px;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 #page-logos {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-content: center;
+  margin-top: 40px;
+}
+
+.work-img {
+  margin-left: 8%;
+}
+.flip-img {
+  display: flex;
+  justify-content: space-evenly;
 }
