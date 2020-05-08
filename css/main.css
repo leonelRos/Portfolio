@@ -1,64 +1,62 @@
 body {
-    background-color: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-    content: initial;
-    background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg) fixed;
-
+  background-color: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  content: initial;
+  /* background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg) fixed; */
 }
 
 .navigate {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 .experience,
 .bio,
 .projects {
-    padding: 30px;
+  padding: 30px;
 }
 
 h1 {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 a {
-    text-decoration: none;
-    font-family: fantasy;
-    font-size: 40px bold;
-    color: rgba(3, 27, 243, 0.911);
-
+  text-decoration: none;
+  font-family: fantasy;
+  font-size: 40px bold;
+  color: rgba(3, 27, 243, 0.911);
 }
 
 a:hover,
 a:active {
-    font-size: 250%;
-    color: red;
+  font-size: 250%;
+  color: red;
 }
 
 header {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 img {
-    height: 200px;
-    width: 300px;
-    border-radius: 20px;
+  height: 200px;
+  width: 300px;
+  border-radius: 20px;
 }
 
 .logo {
-    height: 55px;
-    clear: both;
-    /* opacity: 0.5; */
+  height: 55px;
+  clear: both;
+  /* opacity: 0.5; */
 }
 
 #page-logos {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
