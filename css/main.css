@@ -71,4 +71,21 @@ img {
 .flip-img {
   display: flex;
   justify-content: space-evenly;
+  perspective: 1000px;
 }
+.inner-img {
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.inner-img:hover {
+  transform: rotateY(180deg);
+}
+/* .inner-img,
+.out-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+/* backface-visibility: hidden; */
+/* } */
