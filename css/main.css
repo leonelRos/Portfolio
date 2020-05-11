@@ -4,9 +4,11 @@ body {
   /* background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg); */
   color: turquoise;
 }
+
 body-background {
   opacity: 0.5;
 }
+
 .navigate {
   display: flex;
   justify-content: space-evenly;
@@ -55,7 +57,6 @@ img {
 .logo {
   height: 55px;
   width: 65px;
-  /* opacity: 0.5; */
 }
 
 #page-logos {
@@ -68,11 +69,13 @@ img {
 .work-img {
   margin-left: 8%;
 }
+
 .flip-img {
   display: flex;
   justify-content: space-evenly;
   perspective: 1000px;
 }
+
 .inner-img {
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -81,6 +84,7 @@ img {
 .inner-img:hover {
   transform: rotateY(180deg);
 }
+
 /* .inner-img,
 .out-img {
   position: absolute;
