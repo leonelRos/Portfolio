@@ -1,14 +1,25 @@
 body {
+  /* background-image: radial-gradient(#485563, #29323c); */
+  content: initial;
+  color: black;
+}
+
+.body {
   background-image: radial-gradient(#485563, #29323c);
   content: initial;
   color: black;
 }
+
 section {
   background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/face-img.jpg);
-}
-.home {
+  background-color: white;
   height: 100%;
+
 }
+
+/* .home {
+} */
+
 /* .back-img {
   background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg);
   opacity: 0.5;

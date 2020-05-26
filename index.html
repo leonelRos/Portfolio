@@ -20,7 +20,9 @@
             <nav>Experience</nav>
             <nav>Work</nav>
         </div>
-        <h1>WELCOME</h1>
+        <h3>Hello</h3>
+        <h3>I am Leonel </h3>
+        <h3>I am a Full Stack Developer</h3>
         <div class="profile">
             <img src="img/profile-pic.jpeg">
             <div>
@@ -36,23 +38,24 @@
             productivity and help users respond to digital changes within their workplaces.
         </p>
     </section>
-    <header>
-        <h1>Leo's Portfolio</h1>
-    </header>
-    <div class="navigate">
-        <h2>
-            <a href="#leo-about" class="bio">ABOUT ME</a>
-        </h2>
-        <h2>
-            <a href="#leo-work" class="projects">WORK</a>
-        </h2>
-        <h2>
-            <a href="#leo-experience" class="experience">EXPERIENCE</a>
-        </h2>
-    </div>
 
-    <br>
-    <container>
+    <section class="body">
+        <header>
+            <h1>Leo's Portfolio</h1>
+        </header>
+        <div class="navigate">
+            <h2>
+                <a href="#leo-about" class="bio">ABOUT ME</a>
+            </h2>
+            <h2>
+                <a href="#leo-work" class="projects">WORK</a>
+            </h2>
+            <h2>
+                <a href="#leo-experience" class="experience">EXPERIENCE</a>
+            </h2>
+        </div>
+
+        <br>
         <main>
             <a class="anchor" id="leo-about"></a>
             <h2><strong id="me">About</strong></h2>
@@ -101,27 +104,33 @@
             </div>
 
         </main>
-    </container>
+    </section>
+    <a class="anchor" id="leo-experience"></a>
+    <h2><strong id="trabajo">Contact Me</strong></h2>
 
-    <form>
+    <form method="POST">
         <div class="form-group">
-            <label for="exampleInputEmail1">Name</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputName">Name: </label>
+            <input type="text" class="form-control" id="exampleInputName" placeholder="Enter Name"
+                aria-describedby="nameHelp">
+            <small id="nameHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputLastName">Last Name: </label>
+            <input type="text" class="form-control" id="exampleInputLastName" placeholder="Enter Last Name"
+                aria-describedby="LastNameHelp">
+            <small id="LastNameHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email Address:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="name@example.com"
+                aria-describedby="emailHelp">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
-            <label for="exampleInputEmail1">Last Name</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="exampleFormControlTextarea1">Enter Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message"
+                rows="5"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
