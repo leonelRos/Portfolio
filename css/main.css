@@ -3,6 +3,12 @@ body {
   content: initial;
   color: black;
 }
+section {
+  background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/face-img.jpg);
+}
+.home {
+  height: 100%;
+}
 /* .back-img {
   background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg);
   opacity: 0.5;
