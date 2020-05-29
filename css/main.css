@@ -29,17 +29,18 @@ section {
   display: flex;
 }
 
-/* .back-img {
-  background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg);
-  opacity: 0.5;
-}  */
+.pro-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
 .navigate {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
 }
 
-.experience .bi .projects {
+.experience .bio .projects {
   padding: 30px;
 }
 
