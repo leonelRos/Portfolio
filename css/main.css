@@ -1,32 +1,38 @@
 body {
-  /* background-image: radial-gradient(#485563, #29323c); */
-  content: initial;
-  color: black;
-}
-
-/* .body { */
-/* background-image: radial-gradient(#485563, #29323c);
-  content: initial;
-  color: black;
-} */
-
-section {
-  background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/face-img.jpg);
-  background-color: white;
-  height: 100%;
+  background-image: radial-gradient(#485563, #29323c);
 
 }
 
-.home {
+.body {
   background-image: radial-gradient(#485563, #29323c);
   content: initial;
   color: black;
 }
 
+section {
+  /* background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/face-img.jpg); */
+  background-color: white;
+  /* height: 100%; */
+}
+
+.leo-pro {
+  border-radius: 50%;
+  height: 21vw;
+}
+
+
+
+.home {
+  /* background-image: radial-gradient(#485563, #29323c); */
+  content: initial;
+  color: black;
+  display: flex;
+}
+
 /* .back-img {
   background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/img1.jpeg);
   opacity: 0.5;
-} */
+}  */
 .navigate {
   display: flex;
   justify-content: space-evenly;
@@ -110,4 +116,7 @@ img {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
 /* backface-visibility: hidden; */
-/* } */
+/* } 
+
+
+/* THIS IS A NEW CSS STYLING*/
