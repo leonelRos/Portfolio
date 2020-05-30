@@ -18,15 +18,24 @@ section {
 .leo-pro {
   border-radius: 50%;
   height: 21vw;
+  padding: 31px;
 }
 
 
 
 .home {
-  /* background-image: radial-gradient(#485563, #29323c); */
+  height: 670px;
   content: initial;
   color: black;
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+}
+
+.desc {
+  margin: auto 20%;
+  padding: 45px;
 }
 
 .pro-btn {
@@ -61,12 +70,12 @@ a:active {
   color: purple;
 }
 
-header {
+/* header {
   display: flex;
   text-align: center;
   justify-content: center;
   align-content: center;
-}
+} */
 
 h2 {
   display: flex;
