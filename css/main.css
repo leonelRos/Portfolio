@@ -1,12 +1,12 @@
 body {
   background-image: radial-gradient(#485563, #29323c);
-
 }
 
 .body {
   background-image: radial-gradient(#485563, #29323c);
   content: initial;
   color: black;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 section {
@@ -24,6 +24,7 @@ section {
 
 
 .home {
+  background-image: linear-gradient(#bdc3c7, #2c3e50);
   height: 670px;
   content: initial;
   color: black;
@@ -31,6 +32,8 @@ section {
   flex-direction: column;
   text-align: center;
   font-size: 18px;
+  font-family: 'Balsamiq Sans', cursive;
+
 }
 
 .desc {
@@ -41,6 +44,41 @@ section {
 .pro-btn {
   display: flex;
   justify-content: space-around;
+}
+
+.hire-btn {
+  background-color: #031e2b;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  margin: 5px;
+  cursor: pointer;
+  position: relative;
+  font-size: 18px;
+  width: 233px;
+  padding: 9px;
+
+}
+
+.hire-btn:after {
+  content: '\00bb';
+
+
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.hire-btn:hover {
+  padding-right: 25px;
+}
+
+.hire-btn:hover:after {
+  opacity: 1;
+  right: 0;
 }
 
 .navigate {
