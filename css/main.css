@@ -156,3 +156,47 @@ img {
 .inner-img:hover {
   transform: rotateY(180deg);
 }
+
+form {
+  border-radius: 5px;
+  background-color: #423b53;
+  padding: 20px;
+  width: 32%;
+}
+
+.contact-me {
+  margin-left: 26px;
+
+  margin: 0px auto;
+}
+
+.form-group {
+  padding: 16px;
+}
+
+input[type=text],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-style: none;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #3a643c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #2f9634;
+}
