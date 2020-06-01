@@ -18,6 +18,7 @@ section {
   border-radius: 50%;
   height: 21vw;
   padding: 31px;
+
 }
 
 
@@ -106,6 +107,12 @@ a:hover,
 a:active {
   font-size: 150%;
   color: purple;
+}
+
+.about-img {
+  height: 100px;
+  width: 150px;
+
 }
 
 /* header {
