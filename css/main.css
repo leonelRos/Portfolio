@@ -1,112 +1,50 @@
+/* *,
+*::before,
+*::after {
+  font-family: inherit;
+  box-sizing: border-box;
+} */
+
 body {
-  background-image: radial-gradient(#485563, #29323c);
-}
-
-.body {
-  background-image: radial-gradient(#485563, #29323c);
-  content: initial;
-  color: black;
   font-family: 'Balsamiq Sans', cursive;
+  margin: 0;
 }
 
-section {
-  background-color: white;
-  /* height: 100%; */
+header {
+  background: #191435;
 }
 
-.leo-pro {
-  border-radius: 50%;
-  height: 21vw;
-  padding: 31px;
+header:hover {
+  background: #131023;
+}
 
+.container {
+  width: 100%;
 }
 
 
-
-.home {
-  background-image: linear-gradient(#bdc3c7, #2c3e50);
-  height: 750px;
-  content: initial;
-  color: black;
+nav {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: 18px;
-  font-family: 'Balsamiq Sans', cursive;
-
+  padding: 10px;
+  justify-content: flex-end;
 }
 
-
-
-.desc {
-  margin: auto 20%;
-  padding: 45px;
-}
-
-.pro-btn {
-  display: flex;
-  justify-content: space-around;
-}
-
-.hire-btn,
-.work-btn {
-  background-color: #031e2b;
-  border-radius: 5px;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  transition: all 0.5s;
-  margin: 5px;
-  cursor: pointer;
-  position: relative;
-  font-size: 18px;
-  width: 233px;
-  padding: 9px;
-
-}
-
-.hire-btn:after {
-  content: '\00bb';
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.hire-btn:hover {
-  padding-right: 25px;
-}
-
-.hire-btn:hover:after {
-  opacity: 1;
-  right: 0;
-}
-
-.navigate {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-}
-
-.experience .bio .projects {
-  padding: 30px;
-}
-
-h1 {
-  font-size: 45px;
-}
-
-a {
+.nav-link {
+  padding: 7px;
+  color: #e9ecf0d4;
   text-decoration: none;
-  font-family: fantasy;
-  font-size: 40px bold;
-  color: rgba(3, 27, 243, 0.911);
 }
 
-a:hover,
-a:active {
-  font-size: 150%;
-  color: purple;
+.nav-link:hover {
+  color: #ffffff;
+  text-decoration: underline overline;
+
+  /* background-color: red; */
+}
+
+.leo-logo {
+  float: left;
+  margin: 8px 30px;
 }
 
 .about-img {
@@ -115,22 +53,7 @@ a:active {
 
 }
 
-/* header {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-content: center;
-} */
-
-h2 {
-  display: flex;
-  justify-content: center;
-  text-decoration: underline;
-}
-
 img {
-  height: 200px;
-  width: 300px;
   border-radius: 20px;
 }
 
@@ -144,25 +67,6 @@ img {
   justify-content: space-evenly;
   align-content: center;
   margin-top: 40px;
-}
-
-.work-img {
-  margin-left: 8%;
-}
-
-.flip-img {
-  display: flex;
-  justify-content: space-evenly;
-  perspective: 1000px;
-}
-
-.inner-img {
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.inner-img:hover {
-  transform: rotateY(180deg);
 }
 
 form {
