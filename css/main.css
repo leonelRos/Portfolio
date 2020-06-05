@@ -12,6 +12,10 @@ body {
 
 header {
   background: #191435;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 header:hover {
@@ -88,6 +92,11 @@ li {
   height: 14vw;
   width: 14vw;
   border-radius: 50%;
+  opacity: 0.9;
+}
+
+.profile-image:hover {
+  opacity: 1;
 }
 
 .enter-work {
