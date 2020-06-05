@@ -53,7 +53,7 @@ nav {
 
 .content {
   background: #d24d57 url(/img/la.jpg) 50% 0 repeat fixed;
-  padding: 5em 0;
+  padding: 6.5em 0;
   color: #e1e5e7;
   text-align: center;
   transition: padding 0.2s linear;
@@ -117,8 +117,14 @@ li {
 }
 
 .box-content {
-  padding: 3em 0;
+  /* padding: 3em 0; */
   margin: 5px;
+}
+
+.boxes-display {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .work-box {
@@ -135,7 +141,7 @@ li {
 }
 
 .work-box:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   cursor: pointer;
 }
 
@@ -157,7 +163,7 @@ li {
 .link-box-bottom {
   display: flex;
   justify-content: space-evenly;
-
+  padding: 10px;
 }
 
 #box-links {
@@ -165,16 +171,18 @@ li {
   color: black;
   width: 45%;
   text-align: center;
-  background: green;
+  background: rgb(202, 64, 29);
   padding: 12px 0;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 16px;
 }
 
 #box-links:hover {
   background-color: rgb(58, 13, 221);
   color: white;
-  box-shadow: 3px 3px black
+  box-shadow: 3px 3px black;
+  transform: scale(1.1);
 }
 
 
@@ -205,6 +213,11 @@ form {
   background-color: #423b53;
   padding: 20px;
   width: 32%;
+}
+
+.form-contact {
+  padding: 3em 0;
+  margin: 5px;
 }
 
 .contact-me {
