@@ -47,6 +47,62 @@ nav {
   margin: 8px 30px;
 }
 
+.content {
+  background: #d24d57 url(/img/back-img.jpg) 50% 0 repeat fixed;
+  padding: 22px 0;
+  color: #fff;
+  text-align: center;
+  transition: padding 0.2s linear;
+}
+
+.content-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3% 16%;
+  /* text-align: left; */
+}
+
+.about-page {
+  float: left;
+  margin-left: 7%;
+  margin-top: 10%;
+}
+
+ul {
+  columns: 4;
+}
+
+.list-about {
+  text-align: left;
+  margin: auto;
+  width: 83%;
+  padding-bottom: 40px;
+}
+
+.profile-image {
+  height: 14vw;
+  width: 14vw;
+  border-radius: 50%;
+}
+
+.enter-work {
+  border: 1px solid #fff;
+  color: white;
+  width: 20%;
+  font-size: 17px;
+  text-align: center;
+  text-transform: capitalize;
+  background: none;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.enter-work:hover {
+  background: white;
+  color: #131023;
+}
+
 .about-img {
   height: 100px;
   width: 150px;
