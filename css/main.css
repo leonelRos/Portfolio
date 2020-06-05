@@ -53,7 +53,7 @@ nav {
 
 .content {
   background: #d24d57 url(/img/la.jpg) 50% 0 repeat fixed;
-  padding: 4em 0;
+  padding: 5em 0;
   color: #e1e5e7;
   text-align: center;
   transition: padding 0.2s linear;
@@ -114,6 +114,23 @@ li {
 .enter-work:hover {
   background: white;
   color: #131023;
+}
+
+.box-content {
+  padding: 5px;
+  margin: 5px;
+}
+
+.work-box {
+  width: 320px;
+  height: 450px;
+  padding: 10px;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 3px black;
+}
+
+.work-box:hover {
+  transform: scale(1.1);
 }
 
 .about-img {
