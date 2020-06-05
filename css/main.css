@@ -49,8 +49,8 @@ nav {
 
 .content {
   background: #d24d57 url(/img/back-img.jpg) 50% 0 repeat fixed;
-  padding: 22px 0;
-  color: #fff;
+  padding: 4em 0;
+  color: #e1e5e7;
   text-align: center;
   transition: padding 0.2s linear;
 }
@@ -71,6 +71,10 @@ nav {
 
 ul {
   columns: 4;
+}
+
+li {
+  list-style-type: square;
 }
 
 .list-about {
