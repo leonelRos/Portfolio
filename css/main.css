@@ -264,7 +264,11 @@ form {
 
 .form-contact {
   padding: 3em 0;
-  margin: 5px;
+  /* margin: 5px; */
+  background: url(/img/la.jpg) 50% 0 no-repeat fixed;
+  color: #e1e5e7;
+
+  transition: padding 0.2s linear;
 }
 
 .contact-me {
