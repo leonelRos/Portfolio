@@ -4,9 +4,18 @@
   font-family: inherit;
   box-sizing: border-box;
 } */
+h1 {
+  padding-bottom: 5px;
+  text-decoration: underline rgb(14, 12, 12);
+}
+
+h1:hover {
+  text-decoration: none;
+}
+
 
 body {
-  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -100,20 +109,23 @@ li {
 }
 
 .enter-work {
+
   border: 1px solid #fff;
   color: white;
-  width: 20%;
   font-size: 17px;
   text-align: center;
-  text-transform: capitalize;
   background: none;
-  padding: 20px 0;
+  padding: 20px 36px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .enter-work:hover {
+
   background: white;
-  color: #131023;
+  color: black;
+  transform: rotate(90deg);
+
 }
 
 .box-content {
@@ -201,12 +213,14 @@ li {
   /* margin-left: 29px; */
   /* max-width: 15%; */
   text-align: center;
+  padding: 3px 42px;
+  color: #192841db;
 }
 
 .experience-box {
   width: 170px;
   margin: 32px;
-  background: #3e70d3;
+  background: #c4d1f0;
   border-radius: 14px;
   padding: 8px;
 
