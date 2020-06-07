@@ -25,7 +25,9 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+
 }
+
 
 header:hover {
   background: #131023;
@@ -33,6 +35,18 @@ header:hover {
 
 .container {
   width: 100%;
+
+
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 7px;
+    font-size: 10px;
+    width: fit-content;
+    margin-left: 3px;
+  }
+
 }
 
 
@@ -61,7 +75,7 @@ nav {
 }
 
 .content {
-  background: #d24d57 url(/img/la.jpg) 50% 0 repeat fixed;
+  background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/la.jpg) 50% 0 no-repeat fixed;
   padding: 6.5em 0;
   color: #e1e5e7;
   text-align: center;
@@ -70,10 +84,11 @@ nav {
 
 .content-about {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: center;
   padding: 3% 16%;
-  /* text-align: left; */
 }
 
 .about-page {
@@ -92,9 +107,10 @@ li {
 
 .list-about {
   text-align: left;
-  margin: auto;
-  width: 83%;
-  padding-bottom: 40px;
+  margin-left: 22%;
+
+  width: 900px;
+  padding-bottom: 60px;
 }
 
 .profile-image {
@@ -129,8 +145,8 @@ li {
 }
 
 .box-content {
-  /* padding: 3em 0; */
-  margin: 5px;
+  margin: 0 31px;
+  margin-bottom: 44px;
 }
 
 .boxes-display {
@@ -200,13 +216,17 @@ li {
 .content-flex {
   display: flex;
   text-align: center;
-  margin: 21px;
-  padding: 60px;
+  margin: 18px;
+  padding: 11px;
+  margin-bottom: 71px;
+  margin-top: 32px;
 }
 
 .text-1 {
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .text-2 {
@@ -265,9 +285,8 @@ form {
 .form-contact {
   padding: 3em 0;
   /* margin: 5px; */
-  background: url(/img/la.jpg) 50% 0 no-repeat fixed;
+  background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/la.jpg) 50% 0 no-repeat fixed;
   color: #e1e5e7;
-
   transition: padding 0.2s linear;
 }
 
