@@ -16,7 +16,8 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
-@media (max-width: 320px) {
+@media only screen and (max-width: 768px) {
+  /* @media (max-width: 320px) { */
   body {
     margin: 0;
   }
@@ -62,7 +63,8 @@ nav {
   margin: 8px 30px;
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 768px) {
+  /* @media (max-width: 320px) { */
   .line {
     width: 30px;
     height: 3px;
@@ -214,7 +216,8 @@ li {
   color: black;
   transform: rotate(90deg);
 }
-@media (max-width: 320px) {
+@media only screen and (max-width: 768px) {
+  /* @media (max-width: 320px) { */
   ul {
     columns: 1;
   }
@@ -334,8 +337,8 @@ li {
   height: 71px;
   margin: 10px 45px;
 }
-
-@media (max-width: 320px) {
+@media only screen and (max-width: 768px) {
+  /* @media (max-width: 320px) { */
   .content-flex {
     display: flex;
     flex-direction: column;
@@ -426,7 +429,8 @@ textarea {
   background-color: #2f9634;
 }
 
-@media (max-width: 320px) {
+@media only screen and (max-width: 768px) {
+  /* @media (max-width: 320px) { */
   .contact-me {
     width: 76%;
     font-size: 11px;
