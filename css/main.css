@@ -16,12 +16,12 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 600px) {
   /* @media (max-width: 320px) { */
-  body {
+/* body {
     margin: 0;
-  }
-}
+  } */
+/* }  */
 
 header {
   background: #191435;
@@ -63,7 +63,7 @@ nav {
   margin: 8px 30px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* @media (max-width: 320px) { */
   .line {
     width: 30px;
@@ -72,8 +72,8 @@ nav {
     margin: 5px;
   }
   header {
-    position: fixed;
-    width: 320px;
+    position: absolute;
+    /* width: 320px; */
     /* background: white; */
   }
   .hamburger {
@@ -216,7 +216,7 @@ li {
   color: black;
   transform: rotate(90deg);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* @media (max-width: 320px) { */
   ul {
     columns: 1;
@@ -337,7 +337,7 @@ li {
   height: 71px;
   margin: 10px 45px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* @media (max-width: 320px) { */
   .content-flex {
     display: flex;
@@ -429,7 +429,7 @@ textarea {
   background-color: #2f9634;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* @media (max-width: 320px) { */
   .contact-me {
     width: 76%;
