@@ -16,12 +16,13 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   /* @media (max-width: 320px) { */
-/* body {
+  body {
     margin: 0;
-  } */
-/* }  */
+    width: inherit;
+  }
+}
 
 header {
   background: #191435;
@@ -72,7 +73,7 @@ nav {
     margin: 5px;
   }
   header {
-    position: absolute;
+    position: fixed;
     /* width: 320px; */
     /* background: white; */
   }
@@ -96,11 +97,11 @@ nav {
     position: fixed;
     background: #5b78c7;
     height: 100vh;
-    width: 320px;
+    width: 100%;
     text-align: center;
     flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(34px at 90% -10%);
+    clip-path: circle(67px at 90% -10%);
+    -webkit-clip-path: circle(67px at 90% -10%);
     transition: all 1s ease-out;
     pointer-events: none;
   }
@@ -220,13 +221,23 @@ li {
   /* @media (max-width: 320px) { */
   ul {
     columns: 1;
+    margin-left: 5%;
   }
   .content {
     display: flex;
     flex-direction: column;
   }
   .enter-work {
-    margin: auto 48px;
+    margin: auto 24%;
+    font-size: 11px;
+  }
+  .about-page {
+    margin-left: 42%;
+    margin-top: 3%;
+  }
+  .profile-image {
+    height: 10vh;
+    width: 17vw;
   }
 }
 
@@ -449,5 +460,9 @@ textarea {
   .captcha-size {
     height: 74px;
     width: 264px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 23px;
   }
 }
