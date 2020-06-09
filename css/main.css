@@ -17,6 +17,11 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
+@media (min-width: 320px) {
+  body {
+    margin: 0;
+  }
+}
 
 header {
   background: #191435;
@@ -58,7 +63,7 @@ nav {
   margin: 8px 30px;
 }
 
-@media screen and (max-width: 760px) {
+@media (min-width: 320px) {
   .line {
     width: 30px;
     height: 3px;
@@ -67,6 +72,7 @@ nav {
   }
   header {
     position: fixed;
+    width: 320px;
     /* background: white; */
   }
   .hamburger {
@@ -79,7 +85,8 @@ nav {
   }
   .container {
     /* position: relative; */
-    width: 100%;
+    /* width: 100%; */
+    /* width: 320px; */
   }
   /* .nav-link {
     display: none;
@@ -88,7 +95,7 @@ nav {
     position: fixed;
     background: #5b78c7;
     height: 100vh;
-    width: 100%;
+    width: 320px;
     text-align: center;
     flex-direction: column;
     clip-path: circle(100px at 90% -10%);
@@ -117,6 +124,7 @@ nav {
   }
   nav {
     justify-content: center;
+    padding: 0;
   }
 
   .nav-links a:nth-child(1) {
@@ -205,6 +213,18 @@ li {
   background: white;
   color: black;
   transform: rotate(90deg);
+}
+@media (min-width: 320px) {
+  ul {
+    columns: 1;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .enter-work {
+    margin: auto 48px;
+  }
 }
 
 .box-content {
@@ -312,6 +332,24 @@ li {
   width: 49%;
   height: 71px;
   margin: 10px 45px;
+}
+
+@media (min-width: 320px) {
+  .content-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .work-box {
+    /* width: 70%; */
+    font-size: 11px;
+  }
+  .box-img {
+    width: 212px;
+    height: 190px;
+  }
+  .box-content {
+    margin-right: 47px;
+  }
 }
 
 .about-img {
