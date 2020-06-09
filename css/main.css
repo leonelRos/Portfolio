@@ -442,4 +442,8 @@ textarea {
     height: 2rem;
     width: 2rem;
   }
+  .captcha-size {
+    height: 74px;
+    width: 264px;
+  }
 }
