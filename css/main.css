@@ -1,9 +1,8 @@
-/* *,
+*,
 *::before,
 *::after {
   font-family: inherit;
-  box-sizing: border-box;
-} */
+}
 h1 {
   padding-bottom: 5px;
   text-decoration: underline rgb(14, 12, 12);
@@ -17,7 +16,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   body {
     margin: 0;
   }
@@ -63,7 +62,7 @@ nav {
   margin: 8px 30px;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .line {
     width: 30px;
     height: 3px;
@@ -83,11 +82,11 @@ nav {
     transform: translate(-5%, -50%);
     z-index: 2;
   }
-  .container {
-    /* position: relative; */
-    /* width: 100%; */
-    /* width: 320px; */
-  }
+  /* .container {
+    position: relative; 
+    width: 100%;
+    width: 320px;
+  } */
   /* .nav-link {
     display: none;
   } */
@@ -207,6 +206,7 @@ li {
   padding: 20px 36px;
   cursor: pointer;
   text-decoration: none;
+  margin: 42%;
 }
 
 .enter-work:hover {
@@ -214,7 +214,7 @@ li {
   color: black;
   transform: rotate(90deg);
 }
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   ul {
     columns: 1;
   }
@@ -233,6 +233,7 @@ li {
 }
 
 .boxes-display {
+  margin: 3%;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -334,7 +335,7 @@ li {
   margin: 10px 45px;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .content-flex {
     display: flex;
     flex-direction: column;
@@ -423,4 +424,22 @@ textarea {
 
 .btn-primary:hover {
   background-color: #2f9634;
+}
+
+@media (max-width: 320px) {
+  .contact-me {
+    width: 76%;
+    font-size: 11px;
+  }
+  .form-group {
+    padding: 5px;
+  }
+  .footer-desc {
+    font-size: 15px;
+  }
+
+  .logo {
+    height: 2rem;
+    width: 2rem;
+  }
 }
