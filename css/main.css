@@ -13,9 +13,8 @@ h1:hover {
   text-decoration: none;
 }
 
-
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
@@ -25,9 +24,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-
 }
-
 
 header:hover {
   background: #131023;
@@ -35,20 +32,7 @@ header:hover {
 
 .container {
   width: 100%;
-
-
 }
-
-@media (max-width: 320px) {
-  .container {
-    padding: 7px;
-    font-size: 10px;
-    width: fit-content;
-    margin-left: 3px;
-  }
-
-}
-
 
 nav {
   display: flex;
@@ -74,11 +58,93 @@ nav {
   margin: 8px 30px;
 }
 
+@media screen and (max-width: 760px) {
+  .line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+  }
+  header {
+    position: fixed;
+    /* background: white; */
+  }
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+  .container {
+    /* position: relative; */
+    width: 100%;
+  }
+  /* .nav-link {
+    display: none;
+  } */
+  .nav-links {
+    position: fixed;
+    background: #5b78c7;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(34px at 90% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+  }
+  /* nav {
+    position: fixed;
+    background: #5b78c7;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(100px at 90% -10%);
+    -webkit-clip-path: circle(100px at 90% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+  } */
+  .nav-links.open {
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -10%);
+    pointer-events: all;
+  }
+  .nav-links a {
+    font-size: 25px;
+  }
+  nav {
+    justify-content: center;
+  }
+
+  .nav-links a:nth-child(1) {
+    transition: all 0.5s ease 0.2s;
+  }
+  .nav-links a:nth-child(2) {
+    transition: all 0.5s ease 0.4s;
+  }
+  .nav-links a:nth-child(3) {
+    transition: all 0.5s ease 0.6s;
+  }
+  .nav-links a:nth-child(4) {
+    transition: all 0.5s ease 0.8s;
+  }
+  .nav-links a:nth-child(5) {
+    transition: all 0.5s ease 0.9s;
+  }
+  a.fade {
+    opacity: 1;
+  }
+}
 .content {
-  background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/la.jpg) 50% 0 no-repeat fixed;
+  /* background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/la.jpg) 50%
+  0 no-repeat fixed; */
+  background: black;
   padding: 6.5em 0;
   color: #e1e5e7;
-  text-align: center;
+  /* text-align: center; */
   transition: padding 0.2s linear;
 }
 
@@ -125,7 +191,6 @@ li {
 }
 
 .enter-work {
-
   border: 1px solid #fff;
   color: white;
   font-size: 17px;
@@ -137,11 +202,9 @@ li {
 }
 
 .enter-work:hover {
-
   background: white;
   color: black;
   transform: rotate(90deg);
-
 }
 
 .box-content {
@@ -243,20 +306,17 @@ li {
   background: #c4d1f0;
   border-radius: 14px;
   padding: 8px;
-
 }
 
 #experience-icon {
   width: 49%;
   height: 71px;
   margin: 10px 45px;
-
 }
 
 .about-img {
   height: 100px;
   width: 150px;
-
 }
 
 img {
@@ -284,8 +344,8 @@ form {
 
 .form-contact {
   padding: 3em 0;
-  /* margin: 5px; */
-  background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/la.jpg) 50% 0 no-repeat fixed;
+  background: black;
+  /* background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/la.jpg) 50% 0 no-repeat fixed; */
   color: #e1e5e7;
   transition: padding 0.2s linear;
 }
@@ -300,7 +360,7 @@ form {
   padding: 16px;
 }
 
-input[type=text],
+input[type="text"],
 textarea {
   width: 100%;
   padding: 12px 20px;
