@@ -197,8 +197,7 @@ li {
   /* @media (max-width: 320px) { */
   ul {
     columns: 2;
-    margin-left: -20%;
-    margin-top: -7.5%;
+    /* mß */
   }
   .content {
     display: flex;
