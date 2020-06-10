@@ -126,10 +126,13 @@ nav {
   }
 }
 .content {
-  background: url(/img/la.jpg) 50% 0 no-repeat fixed;
-  padding: 7.5em 0;
+  background: url(/img/la.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 6.5em 0;
   color: #e1e5e7;
   transition: padding 0.2s linear;
+  height: 140vh;
+  max-height: 700px;
 }
 
 .content-about {
@@ -193,13 +196,17 @@ li {
 @media only screen and (max-width: 600px) {
   /* @media (max-width: 320px) { */
   ul {
-    columns: 1;
-    margin-left: 5%;
+    columns: 2;
+    margin-left: -20%;
+    margin-top: -7.5%;
   }
   .content {
     display: flex;
     flex-direction: column;
-    background: url(/img/la.jpg) 50% 0 no-repeat fixed;
+    background: url(/img/la.jpg) center center no-repeat;
+    background-size: cover;
+    height: 140vh;
+    max-height: 700px;
   }
   .enter-work {
     margin: 0;
@@ -443,6 +450,6 @@ textarea {
   }
   h1 {
     text-align: center;
-    font-size: 23px;
+    font-size: 18px;
   }
 }
