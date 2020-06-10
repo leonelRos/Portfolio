@@ -126,13 +126,14 @@ nav {
   }
 }
 .content {
-  background: url(/img/la.jpg) center center no-repeat;
-  background-size: cover;
+  /* background: url(/img/la.jpg) center center no-repeat; */
+  background-color: #000000;
+  /* background-size: cover; */
   padding: 6.5em 0;
   color: #e1e5e7;
   transition: padding 0.2s linear;
-  height: 140vh;
-  max-height: 700px;
+  /* height: 140vh;
+  max-height: 700px; */
 }
 
 .content-about {
@@ -197,15 +198,16 @@ li {
   /* @media (max-width: 320px) { */
   ul {
     columns: 2;
-    /* mß */
   }
   .content {
     display: flex;
     flex-direction: column;
-    background: url(/img/la.jpg) center center no-repeat;
-    background-size: cover;
+    background: #000000;
+    /* background: url(/img/la.jpg) center center no-repeat; */
+    /* background-size: cover;
     height: 140vh;
-    max-height: 700px;
+    max-height: 700px; */
+    padding: 9.5em 0;
   }
   .enter-work {
     margin: 0;
