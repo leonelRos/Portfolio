@@ -228,7 +228,7 @@ li {
     flex-direction: column;
   }
   .enter-work {
-    margin: auto 24%;
+    margin: auto 29%;
     font-size: 11px;
   }
   .about-page {
@@ -364,6 +364,9 @@ li {
   }
   .box-content {
     margin-right: 47px;
+  }
+  .unordered-list {
+    margin: 0;
   }
 }
 
