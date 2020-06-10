@@ -149,9 +149,8 @@ nav {
   }
 }
 .content {
-  /* background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/la.jpg) 50%
-  0 no-repeat fixed; */
-  background: black;
+  background: url(/img/la.jpg) 50% 0 no-repeat fixed;
+  /* background: black; */
   padding: 6.5em 0;
   color: #e1e5e7;
   /* text-align: center; */
