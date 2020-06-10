@@ -182,10 +182,9 @@ li {
 }
 
 .list-about {
-  text-align: left;
-  margin-left: 22%;
-
-  width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
   padding-bottom: 60px;
 }
 
@@ -228,8 +227,9 @@ li {
     flex-direction: column;
   }
   .enter-work {
-    margin: auto 29%;
+    margin: 0;
     font-size: 11px;
+    margin-left: 30%;
   }
   .about-page {
     margin-left: 42%;
@@ -238,6 +238,9 @@ li {
   .profile-image {
     height: 10vh;
     width: 17vw;
+  }
+  .list-about {
+    margin-left: 28%;
   }
 }
 
