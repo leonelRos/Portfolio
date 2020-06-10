@@ -127,7 +127,7 @@ nav {
 }
 .content {
   background: url(/img/la.jpg) 50% 0 no-repeat fixed;
-  padding: 8.5em 0;
+  padding: 7.5em 0;
   color: #e1e5e7;
   transition: padding 0.2s linear;
 }
@@ -199,6 +199,7 @@ li {
   .content {
     display: flex;
     flex-direction: column;
+    background: url(/img/la.jpg) 50% 0 no-repeat fixed;
   }
   .enter-work {
     margin: 0;
