@@ -203,10 +203,6 @@ li {
     display: flex;
     flex-direction: column;
     background: #000000;
-    /* background: url(/img/la.jpg) center center no-repeat; */
-    /* background-size: cover;
-    height: 140vh;
-    max-height: 700px; */
     padding: 7.5em 0;
   }
   .enter-work {
