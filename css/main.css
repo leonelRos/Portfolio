@@ -226,6 +226,7 @@ li {
 .box-content {
   margin: 0 31px;
   margin-bottom: 44px;
+ 
 }
 
 .boxes-display {
@@ -233,6 +234,7 @@ li {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+ 
 }
 
 .work-box {
@@ -300,6 +302,9 @@ li {
   padding: 11px;
   margin-bottom: 71px;
   margin-top: 32px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
 }
 
 .text-1 {
@@ -307,6 +312,11 @@ li {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  
+}
+.text-1-appear{
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 .text-2 {

@@ -9,3 +9,17 @@ hamburger.addEventListener("click", () => {
     });
 
 });
+
+function appearOnScroll() {
+    var scrollAppear = document.querySelector('.content-flex');
+    var enterPosition = scrollAppear.getBoundingClientRect().top;
+    var screenPosition = window.innerHeight / 1.7
+
+    if (enterPosition < screenPosition) {
+        scrollAppear.classList.add('text-1-appear');
+       
+    }
+}
+
+window.addEventListener('scroll', appearOnScroll)
+
