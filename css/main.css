@@ -466,35 +466,35 @@ textarea {
 }
 
 @keyframes slideincontent {
-  from {transform: translateX(-260px);}
+  from {transform: translateX(-100px);}
   to   {transform: translateX(0px);}
 }
 @keyframes slideinname {
-  from {transform: translateX(260px);}
+  from {transform: translateX(100px);}
   to   {transform: translateX(0px);}
 }
 @keyframes slideinprofession {
-  from {transform: translateX(-260px);}
+  from {transform: translateX(-100px);}
   to   {transform: translateX(0px);}
 }
 @keyframes slideinimage {
-  from {transform: translateX(260px);}
+  from {transform: translateX(100px);}
   to   {transform: translateX(0px);}
 }
 @keyframes slideinlist {
-  from {transform: translateX(-190px);}
+  from {transform: translateX(-100px);}
   to   {transform: translateX(0px);}
 }
 .description-content{
   transform: translateX(0px);
   animation: fadein 5s;
-  animation: slideinname 2s;
+  animation: slideincontent 2s;
 }
 
 .name{
   transform: translateX(0px);
-  animation: fadein 5s;
-  animation: slideincontent 2s;
+  animation: fadein 3s;
+  animation: slideinname 2s;
 }
 .profession{
   transform: translateX(0px);
@@ -503,11 +503,11 @@ textarea {
 }
 .profile-image{
   transform: translateX(0px);
-  animation: fadein 5s;
+  animation: fadein 3s;
   animation: slideinimage 2s;
 }
 .list-about{
   transform: translateX(0px);
   animation: fadein 5s;
   animation: slideinlist 2s;
-}
+} 
