@@ -460,3 +460,54 @@ textarea {
     font-size: 18px;
   }
 }
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideincontent {
+  from {transform: translateX(-260px);}
+  to   {transform: translateX(0px);}
+}
+@keyframes slideinname {
+  from {transform: translateX(260px);}
+  to   {transform: translateX(0px);}
+}
+@keyframes slideinprofession {
+  from {transform: translateX(-260px);}
+  to   {transform: translateX(0px);}
+}
+@keyframes slideinimage {
+  from {transform: translateX(260px);}
+  to   {transform: translateX(0px);}
+}
+@keyframes slideinlist {
+  from {transform: translateX(-190px);}
+  to   {transform: translateX(0px);}
+}
+.description-content{
+  transform: translateX(0px);
+  animation: fadein 5s;
+  animation: slideinname 2s;
+}
+
+.name{
+  transform: translateX(0px);
+  animation: fadein 5s;
+  animation: slideincontent 2s;
+}
+.profession{
+  transform: translateX(0px);
+  animation: fadein 5s;
+  animation: slideinprofession 2s;
+}
+.profile-image{
+  transform: translateX(0px);
+  animation: fadein 5s;
+  animation: slideinimage 2s;
+}
+.list-about{
+  transform: translateX(0px);
+  animation: fadein 5s;
+  animation: slideinlist 2s;
+}
