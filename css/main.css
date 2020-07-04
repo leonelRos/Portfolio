@@ -16,7 +16,7 @@ body {
   margin: 0;
   font-family: "Exo", sans-serif;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   /* @media (max-width: 320px) { */
   body {
     margin: 0;
@@ -62,7 +62,7 @@ nav {
   margin: 8px 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   /* @media (max-width: 320px) { */
   .line {
     width: 30px;
@@ -194,7 +194,7 @@ li {
   color: black;
   transform: rotate(90deg);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   /* @media (max-width: 320px) { */
   ul {
     columns: 2;
@@ -340,7 +340,7 @@ li {
   height: 71px;
   margin: 10px 45px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   /* @media (max-width: 320px) { */
   .content-flex {
     display: flex;
@@ -434,7 +434,7 @@ textarea {
   background-color: #2f9634;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   /* @media (max-width: 320px) { */
   .contact-me {
     width: 76%;
