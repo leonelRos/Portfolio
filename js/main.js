@@ -17,9 +17,7 @@ function appearOnScroll() {
 
     if (enterPosition < screenPosition) {
         scrollAppear.classList.add('text-1-appear');
-       
     }
 }
-
 window.addEventListener('scroll', appearOnScroll)
 
