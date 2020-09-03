@@ -9,6 +9,10 @@ hamburger.addEventListener("click", () => {
     });
 
 });
+// hamburger.addEventListener("click", () => {
+//     navLinks.classList.toggle("active")
+// })
+
 
 function appearOnScroll() {
     var scrollAppear = document.querySelector('.content-flex');
