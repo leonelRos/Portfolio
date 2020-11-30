@@ -358,6 +358,11 @@ li {
     margin: 0;
   }
 }
+@media screen and (max-width: 1035px) {
+  .content-flex {
+    flex-direction: column;
+  }
+}
 
 .about-img {
   height: 100px;
