@@ -93,7 +93,7 @@ nav {
     transition: all 1s ease-out;
     pointer-events: none;
   }
- 
+
   .nav-links.open {
     clip-path: circle(1000px at 90% -10%);
     -webkit-clip-path: circle(1000px at 90% -10%);
@@ -227,7 +227,6 @@ li {
 .box-content {
   margin: 0 31px;
   margin-bottom: 44px;
- 
 }
 
 .boxes-display {
@@ -235,7 +234,6 @@ li {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
- 
 }
 
 .work-box {
@@ -313,9 +311,8 @@ li {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  
 }
-.text-1-appear{
+.text-1-appear {
   opacity: 1;
   transform: translateY(0px);
 }
@@ -462,53 +459,77 @@ textarea {
   }
 }
 @keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes slideincontent {
-  from {transform: translateX(-100px);}
-  to   {transform: translateX(0px);}
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
 @keyframes slideinname {
-  from {transform: translateX(100px);}
-  to   {transform: translateX(0px);}
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
 @keyframes slideinprofession {
-  from {transform: translateX(-100px);}
-  to   {transform: translateX(0px);}
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
 @keyframes slideinimage {
-  from {transform: translateX(100px);}
-  to   {transform: translateX(0px);}
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
 @keyframes slideinlist {
-  from {transform: translateX(-100px);}
-  to   {transform: translateX(0px);}
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
-.description-content{
+.description-content {
   transform: translateX(0px);
   animation: fadein 5s;
   animation: slideincontent 2s;
 }
 
-.name{
+.name {
   transform: translateX(0px);
   animation: fadein 3s;
   animation: slideinname 2s;
 }
-.profession{
+.profession {
   transform: translateX(0px);
   animation: fadein 5s;
   animation: slideinprofession 2s;
 }
-.profile-image{
+.profile-image {
   transform: translateX(0px);
   animation: fadein 3s;
   animation: slideinimage 2s;
 }
-.list-about{
+.list-about {
   transform: translateX(0px);
   animation: fadein 5s;
   animation: slideinlist 2s;
-} 
+}

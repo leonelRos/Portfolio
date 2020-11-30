@@ -1,27 +1,24 @@
-const hamburger = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.nav-links');
-const links = document.querySelectorAll('.nav-links a');
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links a");
 
 hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle('open');
-    links.forEach(link => {
-        link.classList.toggle('fade');
-    });
-
+  navLinks.classList.toggle("open");
+  links.forEach((link) => {
+    link.classList.toggle("fade");
+  });
 });
 // hamburger.addEventListener("click", () => {
 //     navLinks.classList.toggle("active")
 // })
 
-
 function appearOnScroll() {
-    var scrollAppear = document.querySelector('.content-flex');
-    var enterPosition = scrollAppear.getBoundingClientRect().top;
-    var screenPosition = window.innerHeight / 1.7
+  var scrollAppear = document.querySelector(".content-flex");
+  var enterPosition = scrollAppear.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.7;
 
-    if (enterPosition < screenPosition) {
-        scrollAppear.classList.add('text-1-appear');
-    }
+  if (enterPosition < screenPosition) {
+    scrollAppear.classList.add("text-1-appear");
+  }
 }
-window.addEventListener('scroll', appearOnScroll)
-
+window.addEventListener("scroll", appearOnScroll);
