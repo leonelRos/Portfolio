@@ -1,6 +1,7 @@
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links a");
+const panels = document.querySelectorAll(".panel");
 
 hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("open");
@@ -22,3 +23,16 @@ function appearOnScroll() {
   }
 }
 window.addEventListener("scroll", appearOnScroll);
+
+panels.forEach((panel) => {
+  panel.addEventListener("click", () => {
+    removeActiveClasses();
+    panel.classList.add("active");
+  });
+});
+
+function removeActiveClasses() {
+  panels.forEach((panel) => {
+    panel.classList.remove("active");
+  });
+}
