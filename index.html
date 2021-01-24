@@ -11,32 +11,43 @@
       href="https://fonts.googleapis.com/css?family=Exo+2:100|Exo:300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
     <header>
-      <div class="container">
-        <div class="hamburger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
+      <button class="nav-btn open-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <a href="#leo-about">
+        <img
+          src="img/leo-logo.jpg"
+          alt="logo"
+          class="leo-logo"
+          height="30px"
+          width="30px"
+        />
+      </a>
+
+      <div class="nav nav-black">
+        <div class="nav nav-purple">
+          <button class="nav-btn close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="list">
+            <li><a class="" href="#">Home</a></li>
+            <li><a class="" href="#leo-about">About</a></li>
+            <li><a class="" href="#leo-work">Work</a></li>
+            <li><a class="" href="#leo-experience">Experience</a></li>
+            <li><a class="" href="#leo-contact">Contact</a></li>
+          </ul>
         </div>
-        <a href="#leo-about">
-          <img
-            src="img/leo-logo.jpg"
-            alt="logo"
-            class="leo-logo"
-            height="30px"
-            width="30px"
-          />
-        </a>
-        <nav class="nav-links">
-          <a class="nav-link" href="#">Home</a>
-          <a class="nav-link" href="#leo-about">About</a>
-          <a class="nav-link" href="#leo-work">Work</a>
-          <a class="nav-link" href="#leo-experience">Experience</a>
-          <a class="nav-link" href="#leo-contact">Contact</a>
-        </nav>
       </div>
     </header>
 
