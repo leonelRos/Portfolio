@@ -1,17 +1,27 @@
-const hamburger = document.querySelector(".hamburger");
+// const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links a");
 const panels = document.querySelectorAll(".panel");
+const openBtn = document.querySelector(".open-btn");
+const closeBtn = document.querySelector(".close-btn");
+const nav = document.querySelectorAll(".nav");
 
-hamburger.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
-  links.forEach((link) => {
-    link.classList.toggle("fade");
-  });
-});
+// hamburger.addEventListener("click", () => {
+//   navLinks.classList.toggle("open");
+//   links.forEach((link) => {
+//     link.classList.toggle("fade");
+//   });
+// });
 // hamburger.addEventListener("click", () => {
 //     navLinks.classList.toggle("active")
 // })
+
+openBtn.addEventListener("click", () => {
+  nav.forEach((navList) => navList.classList.add("visible"));
+});
+closeBtn.addEventListener("click", () => {
+  nav.forEach((navList) => navList.classList.remove("visible"));
+});
 
 function appearOnScroll() {
   var scrollAppear = document.querySelector(".content-flex");
