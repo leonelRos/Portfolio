@@ -183,7 +183,7 @@ nav {
 .content {
   background: url(/img/la.jpg) center center no-repeat;
   background-color: #000000;
-  /* background-size: cover; */
+  background-size: cover;
   padding: 6.5em 0;
   color: #e1e5e7;
   transition: padding 0.2s linear;
