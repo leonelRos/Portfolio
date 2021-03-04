@@ -465,6 +465,7 @@ form {
 
 .form-group {
   padding: 16px;
+  font-size: 18px;
 }
 
 input[type="text"],
