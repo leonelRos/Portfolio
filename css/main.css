@@ -449,11 +449,12 @@ form {
 
 .form-contact {
   padding: 3em 0;
-  background: black;
-  /* background: url(/Users/leosmac/Genaral-Assembly-proj/Leo-Portf/img/la.jpg) 50% */
-  /* 0 no-repeat fixed; */
+  background: rgb(12 17 20 / 68%);
   color: #e1e5e7;
-  transition: padding 0.2s linear;
+  transition: background-color 7s ease-out;
+}
+.form-contact:hover {
+  background-color: #5b78c7;
 }
 
 .contact-me {
