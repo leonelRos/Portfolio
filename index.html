@@ -363,9 +363,10 @@
     <div class="form-contact">
       <h1 style="text-align: center; text-decoration: none">CONTACT ME</h1>
 
-      <form class="contact-me" action="POST" data-netlify="true">
+      <form class="contact-me" action="https://api.web3forms.com/submit" method="POST">
         <div class="form-group">
           <label for="exampleInputName">Name:</label>
+       
           <input
             type="text"
             class="form-control"
@@ -411,11 +412,22 @@
             required
           ></textarea>
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
           <div class="captcha-size" data-netlify-recaptcha="true"></div>
-        </div>
+        </div> -->
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+
+      <!-- Success Modal -->
+      <div class="modal" id="successModal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Thank You!</h2>
+          <p>Your message has been sent successfully. I'll get back to you soon!</p>
+          <button class="modal-btn">Close</button>
+        </div>
+      </div>
+
       <br />
       <h2 class="footer-desc" style="text-align: center">
         You can contact me or follow me in these social media
